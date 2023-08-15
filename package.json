@@ -13,15 +13,27 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.8.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.3",
     "electron": "^26.0.0",
     "electron-builder": "^24.6.3",
     "nuxt": "^3.6.5",
     "nuxt-electron": "^0.6.0",
+    "nuxt-lodash": "^2.5.0",
     "pug": "^3.0.2",
     "vite-plugin-electron": "^0.13.0-beta.1",
     "vite-plugin-electron-renderer": "^0.14.5"
   },
-  "dependencies": {},
-  "packageManager": "pnpm@8.6.12"
+  "packageManager": "pnpm@8.6.12",
+  "dependencies": {
+    "@syncfusion/ej2-vue-base": "^22.2.5",
+    "@syncfusion/ej2-vue-buttons": "^22.2.8",
+    "@syncfusion/ej2-vue-inputs": "^22.2.7",
+    "@tmcw/togeojson": "^5.8.1",
+    "dayjs": "^1.11.9",
+    "kml-to-geojson": "^1.0.13",
+    "modify-exif": "^0.0.1",
+    "piexifjs": "^1.0.6",
+    "xmldom": "^0.6.0"
+  }
 }

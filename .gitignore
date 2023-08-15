@@ -8,6 +8,8 @@ dist
 dist-electron
 release
 
+syncfusion-license.txt
+
 # Node dependencies
 node_modules
 
