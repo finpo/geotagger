@@ -1,16 +1,27 @@
 {
   "name": "geotagger",
   "private": true,
+  "version": "0.0.0",
+  "main": "dist-electron/main.js",
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build --prerender && electron-builder",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^0.8.0",
     "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5"
-  }
+    "electron": "^26.0.0",
+    "electron-builder": "^24.6.3",
+    "nuxt": "^3.6.5",
+    "nuxt-electron": "^0.6.0",
+    "pug": "^3.0.2",
+    "vite-plugin-electron": "^0.13.0-beta.1",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "dependencies": {},
+  "packageManager": "pnpm@8.6.12"
 }
