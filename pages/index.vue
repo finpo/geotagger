@@ -1,6 +1,8 @@
 <template lang="pug">
-UploaderComponent(@selected="uploadKMLChange")
-UploaderComponent(@selected="uploadImageChange")
+div(class="w-[300px] float-left")
+  UploaderComponent(@selected="uploadKMLChange", allowedExtensions=".kml", :showFileList="false")
+div(class="w-[300px] float-left")
+  UploaderComponent(@selected="uploadImageChange")
 </template>
 
 <script setup>
@@ -10,9 +12,7 @@ import { readFileSync } from 'fs';
 import { kml } from '@tmcw/togeojson';
 import { DOMParser } from 'xmldom';
 
-const importedGeoData = {
-
-};
+const importedGeoData = {};
 
 const uploadKMLChange = (e) => {
   for (const file of e.filesData) {
@@ -47,7 +47,6 @@ const uploadKMLChange = (e) => {
             GPSLatitudeRef: coordinates[1] > 0 ? 'N' : 'S',
           });
         });
-
       }
       
     }

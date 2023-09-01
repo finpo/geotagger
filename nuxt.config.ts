@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     'nuxt-lodash',
   ],
   css: [
-    '@syncfusion/ej2-base/styles/material.css',
+    '@syncfusion/ej2-base/styles/tailwind.css',
     '@syncfusion/ej2-buttons/styles/tailwind.css',
     '@syncfusion/ej2-inputs/styles/tailwind.css',
   ],

@@ -15,6 +15,7 @@
     "@nuxt/devtools": "^0.8.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.3",
+    "@types/xmldom": "^0.1.31",
     "electron": "^26.0.0",
     "electron-builder": "^24.6.3",
     "nuxt": "^3.6.5",

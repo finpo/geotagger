@@ -43,6 +43,9 @@ devDependencies:
   '@types/node':
     specifier: ^18.17.3
     version: 18.17.3
+  '@types/xmldom':
+    specifier: ^0.1.31
+    version: 0.1.31
   electron:
     specifier: ^26.0.0
     version: 26.0.0
@@ -1929,6 +1932,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@types/xmldom@0.1.31:
+    resolution: {integrity: sha512-bVy7s0nvaR5D1mT1a8ZkByHWNOGb6Vn4yi5TWhEdmyKlAG+08SA7Md6+jH+tYmMLueAwNeWvHHpeKrr6S4c4BA==}
+    dev: true
 
   /@types/yauzl@2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
